@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Minecraft Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Minecraft Regular'), url('https://www.cufonfonts.com/cdn/webfont/minecraft-3/1_MinecraftRegular1.woff?token=Wqh_4oV1YeMXQs8MA0guKeX4PdY8SEbA') format('woff');
+}
+@font-face {
+    font-family: 'Minecraft Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Minecraft Italic'), url('https://www.cufonfonts.com/cdn/webfont/minecraft-3/2_MinecraftItalic1.woff?token=Wqh_4oV1YeMXQs8MA0guKeX4PdY8SEbA') format('woff');
+}
+@font-face {
+    font-family: 'Minecraft Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Minecraft Bold'), url('https://www.cufonfonts.com/cdn/webfont/minecraft-3/3_MinecraftBold1.woff?token=Wqh_4oV1YeMXQs8MA0guKeX4PdY8SEbA') format('woff');
+}
+@font-face {
+    font-family: 'Minecraft Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Minecraft Bold Italic'), url('https://www.cufonfonts.com/cdn/webfont/minecraft-3/4_MinecraftBoldItalic1.woff?token=Wqh_4oV1YeMXQs8MA0guKeX4PdY8SEbA') format('woff');
+}
+
+.theme--dark.v-application {
+    background-color: #1f2430;
+}
+
+.advertisment-rail {
+    display: none !important;
+}
+
+.advertisement-server-bar {
+    display: none !important;
+}
+
+.v-application .primary {
+    background-color: #ae81ff !important;
+}
+
+.v-application .error {
+    background-color: #FF3333 !important;
+    border-color: #FF3333 !important;
+}
+
+.theme--dark.v-navigation-drawer {
+    background-color: #141925;
+    border-color: #101521;
+}
+
+.theme--dark.v-card {
+    background-color: #191E2A;
+}
+
+.theme--dark.v-chip:not(.v-chip--active) {
+    background: #2D3B4D;
+}
+
+.theme--dark.v-sheet {
+    background-color: #101521;
+}
+
+table {
+    border: none;
+}
+
+.theme--dark.v-data-table {
+    background: #191E2A;
+}
+
+.theme--dark.v-data-table tbody tr:hover:not(.v-data-table__expanded__content) {
+    background: #2e374a;
+}
+
+.v-application .primary--text {
+    color: #ae81ff !important;
+    caret-color: #ae81ff !important;
+}
+
+.v-application a {
+    color: #5CCFE6;
+}
+
+.v-tooltip {
+    background: #2D3B4D;
+}
+
+.da-locked-overlay {
+    background-color: #6f469d69;
+}
+
+.da-active-icon {
+    outline: 2px solid #ae81ff !important;
+}
+
+.si-locked-overlay {
+    background-color: #6f469d69;
+}
+
+.da-preformat {
+    font-size: 1rem;
+    font-family: "Minecraft Regular";
+}
+
+.sl-preformat {
+    font-size: 1rem;
+    font-family: "Minecraft Regular";
+}
+
+.dash-div .content {
+    width: 100%;
+}
+
+.container--fluid {
+    max-width: calc(100% - 240px);
+    margin: 0 auto;
+}
+
+.v-application .accent--text {
+    color: #ae81ff !important;
+    caret-color: #ae81ff !important;
+}
+
+.v-pagination__item {
+    background: #2e374a !important;
+}
+
+.v-pagination__navigation {
+    background: #2e374a !important;
+}
+
+.theme--dark.v-text-field--solo>.v-input__control>.v-input__slot {
+    background: #2e374a !important;
+}
+
+.theme--dark.v-expansion-panels .v-expansion-panel {
+    background-color: #191E2A !important;
+}
+
+.v-icon.notranslate.mdi.mdi-diamond.theme--dark {
+    color: #ae81ff !important;
+}
