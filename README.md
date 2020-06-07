@@ -1,5 +1,15 @@
 # MinehutPlus
-Improve the look of Minehut's dashboard.
+Improve the look of [Minehut](https://www.minehut.com)'s dashboard.
+
+**Note:** This project is incomplete, and the final product might be completely different.
+
+## Screenshots
+![My Dashboard](https://i.imgur.com/TcnDNjY.png)
+![Appearance](https://i.imgur.com/0T7P1Xv.png)
+![Server MOTD](https://i.imgur.com/ydaT6N1.png)
+![Plugins](https://i.imgur.com/klzhv2D.png)
+![File Manager](https://i.imgur.com/RpeWKyx.png)
+![Settings](https://i.imgur.com/K2vIqdl.png)
 
 ## License
 MinehutPlus uses the MIT License.
