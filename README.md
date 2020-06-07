@@ -1,5 +1,5 @@
 # MinehutPlus
-Improve the look of [Minehut](https://www.minehut.com)'s dashboard.
+A Google Chrome extension to improve the look of [Minehut](https://www.minehut.com)'s dashboard.
 
 **Note:** This project is incomplete, and the final product might be completely different.
 
