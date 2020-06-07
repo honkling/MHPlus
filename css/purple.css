@@ -45,8 +45,8 @@
 }
 
 .theme--dark.v-navigation-drawer {
-    background-color: #141925;
-    border-color: #101521;
+    background-color: #141925 !important;
+    border-color: #101521 !important;
 }
 
 .theme--dark.v-card {
