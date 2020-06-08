@@ -39,7 +39,15 @@
     width: 100%;
 }
 
+.server-list-div .content {
+    width: 100%;
+}
+
 .container--fluid {
     max-width: calc(100% - 240px);
     margin: 0 auto;
+}
+
+.server-list-div .container--fluid {
+    max-width: calc(100% - 360px);
 }
