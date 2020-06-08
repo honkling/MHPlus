@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Minecraft Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Minecraft Regular'), url('https://www.cufonfonts.com/cdn/webfont/minecraft-3/1_MinecraftRegular1.woff?token=Wqh_4oV1YeMXQs8MA0guKeX4PdY8SEbA') format('woff');
+}
+
+/*
+    Remove annoying advertisements
+*/
+
+.advertisment-rail {
+    display: none !important;
+}
+
+.advertisement-server-bar {
+    display: none !important;
+}
+
+/*
+    Apply font to MOTD displays
+*/
+
+.da-preformat {
+    font-size: 1rem;
+    font-family: "Minecraft Regular";
+}
+
+.sl-preformat {
+    font-size: 1rem;
+    font-family: "Minecraft Regular";
+}
+
+/*
+    Center content
+*/
+
+.dash-div .content {
+    width: 100%;
+}
+
+.container--fluid {
+    max-width: calc(100% - 240px);
+    margin: 0 auto;
+}
