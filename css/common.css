@@ -43,6 +43,10 @@
     width: 100%;
 }
 
+.user-profile .content {
+    width: 100%;   
+}
+
 .container--fluid {
     max-width: calc(100% - 240px);
     margin: 0 auto;
@@ -50,4 +54,8 @@
 
 .server-list-div .container--fluid {
     max-width: calc(100% - 360px);
+}
+
+.user-profile .container--fluid {
+    max-width: calc(100% - 460px);
 }
