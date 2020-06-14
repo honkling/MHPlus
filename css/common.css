@@ -47,6 +47,10 @@
     width: 100%;   
 }
 
+.support-div .content {
+    width: 100%;
+}
+
 .container--fluid {
     max-width: calc(100% - 240px);
     margin: 0 auto;
@@ -57,5 +61,9 @@
 }
 
 .user-profile .container--fluid {
+    max-width: calc(100% - 460px);
+}
+
+.support-div .container--fluid {
     max-width: calc(100% - 460px);
 }
