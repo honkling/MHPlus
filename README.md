@@ -14,7 +14,8 @@ A Google Chrome extension to improve the look of [Minehut](https://www.minehut.c
 ## License
 MinehutPlus uses the MIT License.
 
-```MIT License
+```
+MIT License
 
 Copyright (c) 2020 AppleFlavored and contributors
 
