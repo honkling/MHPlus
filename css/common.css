@@ -9,24 +9,15 @@
     Remove annoying advertisements
 */
 
-.advertisment-rail {
-    display: none !important;
-}
-
-.advertisement-server-bar {
+.advertisment-rail, .advertisement-server-bar {
     display: none !important;
 }
 
 /*
-    Apply font to MOTD displays
+    Apply font
 */
 
-.da-preformat {
-    font-size: 1rem;
-    font-family: "Minecraft Regular";
-}
-
-.sl-preformat {
+.da-preformat, .sl-preformat, .vip-color, .pro-color, .legend-color, .patron-color {
     font-size: 1rem;
     font-family: "Minecraft Regular";
 }
