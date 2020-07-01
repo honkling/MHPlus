@@ -13,4 +13,4 @@ function loadStyle(url) {
 addLiveConsoleTab();
 
 loadStyle('common.css');
-loadStyle('purple.css');
+loadStyle('blue.css');
