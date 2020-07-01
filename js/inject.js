@@ -4,7 +4,7 @@ function addLiveConsoleTab() {
 
 function loadStyle(url) {
     const style = document.createElement('link');
-    style.href = chrome.extension.getURL(`css/${url}`);
+    style.href = chrome.runtime.getURL(`css/${url}`);
     style.type = 'text/css';
     style.rel = 'stylesheet';
     document.head.appendChild(style);
@@ -13,4 +13,10 @@ function loadStyle(url) {
 addLiveConsoleTab();
 
 loadStyle('common.css');
-loadStyle('blue.css');
+
+chrome.storage.sync.get('style', (result) => {
+    if (result.key)
+        loadStyle(`${result.key}.css`);
+    else
+        loadStyle('blue.css');
+});

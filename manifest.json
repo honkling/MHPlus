@@ -6,6 +6,10 @@
     "icons": {
         "48": "images/icon48.png"
     },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
     "content_scripts": [
         {
             "matches": [
@@ -24,6 +28,7 @@
     ],
     "permissions": [
         "http://minehut.com/*",
-        "https://minehut.com/*"
+        "https://minehut.com/*",
+        "storage"
     ]
 }

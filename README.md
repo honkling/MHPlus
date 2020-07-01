@@ -3,6 +3,18 @@ A Google Chrome extension to improve the look of [Minehut](https://www.minehut.c
 
 **Note:** This project is incomplete, and the final product might be completely different.
 
+## Installation
+1. Clone the repo and unzip.
+2. Open chrome://extensions.
+3. Enable developer mode.
+4. Click "Load Unpacked" and select the unzipped folder.
+
+## Loading new styles
+1. Copy and paste an existing .css stylesheet into the `/css` folder.
+2. Change anything you want.
+3. Reload the extension in chrome://extensions.
+4. Select the theme in the extension's options page.
+
 ## Screenshots
 ![My Dashboard](https://i.imgur.com/TcnDNjY.png)
 ![Appearance](https://i.imgur.com/0T7P1Xv.png)
