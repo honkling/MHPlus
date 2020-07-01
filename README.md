@@ -9,11 +9,8 @@ A Google Chrome extension to improve the look of [Minehut](https://www.minehut.c
 3. Enable developer mode.
 4. Click "Load Unpacked" and select the unzipped folder.
 
-## Loading new styles
-1. Copy and paste an existing .css stylesheet into the `/css` folder.
-2. Change anything you want.
-3. Reload the extension in chrome://extensions.
-4. Select the theme in the extension's options page.
+## Select theme
+Right click on the MinehutPlus icon and click options.
 
 ## Screenshots
 ![My Dashboard](https://i.imgur.com/TcnDNjY.png)
