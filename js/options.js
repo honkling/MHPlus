@@ -1,4 +1,12 @@
-function saveSettings() {
+document.addEventListener('DOMContentLoaded', () => {
+    chrome.storage.sync.get({
+        style: 'blue',
+    }, function(items) {
+        document.getElementById('styles').value = items.style;
+    });
+});
+
+document.getElementById('save').addEventListener('click', () => {
     const value = document.getElementById('styles').value;
     const status = document.getElementById('status');
 
@@ -18,14 +26,4 @@ function saveSettings() {
             status.innerText = ""
         }, 1000);
     });
-}
-
-function handleOnLoad() {
-    const select = document.getElementById('styles');
-    ['purple', 'blue'].forEach(v => {
-        const e = document.createElement('option');
-        e.value = v;
-        e.innerText = v;
-        select.appendChild(e);
-    });
-}
+});

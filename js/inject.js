@@ -14,9 +14,8 @@ addLiveConsoleTab();
 
 loadStyle('common.css');
 
-chrome.storage.sync.get('style', (result) => {
-    if (result.key)
-        loadStyle(`${result.key}.css`);
-    else
-        loadStyle('blue.css');
+chrome.storage.sync.get({
+    style: 'blue',
+}, function(items) {
+    loadStyle(`${items.style}.css`);
 });
