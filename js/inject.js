@@ -17,5 +17,6 @@ loadStyle('common.css');
 chrome.storage.sync.get({
     style: 'blue',
 }, function(items) {
-    loadStyle(`${items.style}.css`);
+    if (items.style != "default")
+        loadStyle(`${items.style}.css`);
 });

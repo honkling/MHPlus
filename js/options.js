@@ -14,16 +14,16 @@ document.getElementById('save').addEventListener('click', () => {
         status.innerText = "Select a style first!"
         setTimeout(() => {
             status.innerText = ""
-        }, 1000);
+        }, 2000);
         return;
     }
 
     chrome.storage.sync.set({
         style: value
     }, function() {
-        status.innerText = `Saved style: ${value}`;
+        status.innerText = `Saved style: ${value.replace(value[0], value[0].toUpperCase())}`;
         setTimeout(() => {
             status.innerText = ""
-        }, 1000);
+        }, 2000);
     });
 });
