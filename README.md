@@ -20,6 +20,9 @@ Right click on the MinehutPlus icon and click options. After you select a theme,
 ![File Manager](https://i.imgur.com/RpeWKyx.png)
 ![Settings](https://i.imgur.com/K2vIqdl.png)
 
+## To-do
+See our [To-do](/TODO.md) list to see what is planned/completed.
+
 ## License
 MinehutPlus uses the MIT License.
 
