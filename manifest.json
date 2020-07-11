@@ -17,13 +17,15 @@
                 "*://*.minehut.com/shop/*",
                 "*://*.minehut.com/dashboard/*",
                 "*://*.minehut.com/profile/*",
-                "*://*.minehut.com/market/*"
+                "*://*.minehut.com/market/*",
+                "*://forums.minehut.com/*"
             ],
             "js": ["js/inject.js"]
         }
     ],
     "web_accessible_resources": [
-        "css/*.css"
+        "css/*.css",
+        "css/forums/*.css"
     ],
     "permissions": [
         "http://minehut.com/*",

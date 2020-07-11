@@ -1,0 +1,216 @@
+body, #ipsLayout_contentWrapper {
+    background-color: #22242b;
+}
+
+#ipsLayout_header nav {
+    background: #191b26;
+}
+
+.cForumList h2, .ipsType_sectionTitle {
+    background-color: #1b1d22 !important;
+}
+
+#ipsLayout_sidebar .ipsWidget_title, #elVNC_sidebar .ipsFieldRow_label, #elSearch_sidebar .ipsFieldRow_label, .ipsTable.ipsMatrix .ipsMatrix_subHeader, .ipsSideMenu_subTitle, .ipsSideMenu_title, .ipsSideMenu_list + .ipsSideMenu_title {
+    background-color: #1b1d22 !important;
+}
+
+.ipsDataList:not(.ipsGrid) .ipsDataItem:last-child, .ipsDataList.ipsDataList_zebra > .ipsDataItem {
+    background: #2c2e35;
+}
+
+.cForumList .ipsDataItem, .ipsDataList.ipsDataList_zebra .ipsDataItem:nth-child(2n):not(.ipsDataItem_selected):not(.ipsModerated):not(.ipsDataItem_new):not(.ipsDataItem_success):not(.ipsDataItem_warning):not(.ipsDataItem_error):not(.ipsDataItem_info):not(.ipsDataItem_status) {
+    background: #2c2e35;
+}
+
+#ipsLayout_sidebar .ipsWidget_title::before {
+    box-shadow: none;
+}
+
+.ipsWidget_inner, .ipsWidget_vertical .ipsDataItem, #ipsLayout_sidebar .ipsDataList li:before {
+    background: #2c2e35;
+}
+
+.circle, .pulse {
+    animation: none;
+    box-shadow: none;
+}
+
+.ipsDataItem_unread .ipsItemStatus.ipsItemStatus_large {
+    box-shadow: none;
+}
+
+.ipsTabs_panel {
+    background: #2c2e35;
+}
+
+section#elTopContributors_content .ipsAreaBackground_light a {
+    color: white;
+}
+
+#elNavTheme {
+    display: none;
+}
+
+#elSearchExpanded {
+    border-color: #2c2e35;
+}
+
+#elSearchExpanded .ipsMenu_title, #elSearchExpanded .ipsSideMenu_list {
+    border-color: #1b1d22;
+}
+
+#elSearch {
+    background: #22242b;
+}
+
+#elSearch input[type="search"] {
+    color: white;
+}
+
+.cSearchExpanded #elSearch input[type="search"] {
+    border: none;
+    transition: none;
+}
+
+.ipsNavBar_secondary > li > a {
+    color: white;
+}
+
+.ipsTabs.ipsTabs_contained {
+    border-color: none;
+}
+
+#elLeaderboardContent .ipsStream .ipsStreamItem_contentBlock {
+    background: #222329;
+}
+
+.ipsHovercard {
+    background: #2c2e35;
+}
+
+.ipsAreaBackground, .ipsAlert {
+    background: #222329;
+}
+
+.ipsWidget .ipsTabs_small .ipsTabs_item:not(.ipsTabs_activeItem) {
+    background: #2c2e35;
+}
+
+#elTopContributors {
+    margin-bottom: 4px;
+}
+
+.ipsTabs_activeItem {
+    background: #2c2e35 !important;
+}
+
+.ipsButtonBar {
+    background: #222329;
+}
+
+.ipsButtonBar .ipsButtonRow li > a, .ipsButtonBar .ipsButtonRow li > button, .ipsButtonBar .ipsButtonRow li > span {
+    background: #1b1d22 !important;
+}
+
+.ipsApp .ipsButtonBar .ipsPagination .ipsPagination_page a, .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_next a, .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_prev a, .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_first a, .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_last a, .ipsPagination:not(.ipsPagination_mini) .ipsPagination_page a, .ipsPagination:not(.ipsPagination_mini) .ipsPagination_next a, .ipsPagination:not(.ipsPagination_mini) .ipsPagination_prev a, .ipsPagination:not(.ipsPagination_mini) .ipsPagination_first a, .ipsPagination:not(.ipsPagination_mini) .ipsPagination_last a {
+    background: #1b1d22;
+}
+
+.ipsMenu {
+    background: #222329;
+}
+
+.ipsApp .ipsButton_primary, #elRegisterButton {
+    box-shadow: none;
+}
+
+.ipsBox:not( .ipsBox_transparent ):not( .ipsModerated ) {
+    background: #1b1d22;
+}
+
+.ipsDataList .ipsDataItem.ipsDataItem_unread {
+    background: #1b1d22;
+    margin-bottom: 4px;
+}
+
+.cForumList .ipsDataItem, .ipsDataList.ipsDataList_zebra .ipsDataItem:nth-child(2n):not(.ipsDataItem_selected):not(.ipsModerated):not(.ipsDataItem_new):not(.ipsDataItem_success):not(.ipsDataItem_warning):not(.ipsDataItem_error):not(.ipsDataItem_info):not(.ipsDataItem_status) {
+    background: #1b1d22;
+}
+
+.cTopicList {
+    background: #22242b;
+}
+
+.veilon-social-icons a, #extended_footer a, .veilon-social-icons .fab, .cShareLink, .cForumList .ipsDataItem {
+    transition: none;
+    -webkit-transition: none;
+}
+
+.cForumList .ipsDataItem:hover {
+    background: #23262c !important;
+}
+
+.ipsAreaBackground_reset {
+    background: #1b1d22 !important;
+}
+
+html[dir="ltr"] .ipsStream_withTimeline .ipsStreamItem::after {
+    border-color: transparent #1b1d22 transparent transparent;
+}
+
+html[dir="ltr"] .ipsStream_withTimeline .ipsStreamItem.ipsStreamItem_contentBlock::before {
+    border-color: transparent #1b1d22 transparent transparent;
+}
+
+.ipsComment {
+    background: #222329;
+}
+
+.ipsComposeArea_editor {
+    background: #1b1d22;
+    border: 1px solid #222329;
+}
+
+.cke .cke_top {
+    background: #181a1f;
+}
+
+.cke textarea.cke_source, .cke .cke_wysiwyg_frame, .cke .cke_wysiwyg_div {
+    background: #1b1d22;
+}
+
+.ipsApp .ipsButton_light {
+    box-shadow: none;
+}
+
+.cAuthorPane, div[data-role="profileContent"], div[data-role="profileContent"] .ipsAreaBackground {
+    background: #181a1f;
+}
+
+.ipsQuote {
+    background-color: #181a1f;
+}
+
+.ipsType_minorHeading, .cProfileRepScore {
+    color: white;
+}
+
+.cProfileRepScore_neutral {
+    background: #32343b;
+}
+
+html[dir="ltr"] .ipsComposeArea_withPhoto .ipsComposeArea_editor::before {
+    border-color: transparent #1b1d22 transparent transparent;
+}
+
+html[dir="ltr"] .ipsComposeArea_withPhoto .ipsComposeArea_editor::after {
+    border-color: transparent #1b1d22 transparent transparent;
+}
+
+#elProfileStats {
+    background: #181a1f;
+}
+
+div[data-role='profileContent'] .ipsTabs_item, div[data-role='profileContent'] .ipsTabs_item:hover {
+    background: #1e2025;
+}

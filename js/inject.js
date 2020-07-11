@@ -10,7 +10,11 @@ loadStyle('common.css');
 
 chrome.storage.sync.get({
     style: 'blue',
+    forums: 'default'
 }, function(items) {
     if (items.style != "default")
         loadStyle(`${items.style}.css`);
+        
+    if (items.forumsTheme != "default")
+        loadStyle(`forums/${items.forums}.css`);
 });

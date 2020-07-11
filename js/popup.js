@@ -1,16 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
     chrome.storage.sync.get({
         style: 'blue',
+        forums: 'default'
     }, function(items) {
-        document.getElementById('styles').value = items.style;
+        document.getElementById('dashboard-select').value = items.style;
+        document.getElementById('forums-select').value = items.forums;
     });
 });
 
 document.getElementById('save').addEventListener('click', () => {
-    const value = document.getElementById('styles').value;
+    const value = document.getElementById('dashboard-select').value;
+    const forumsTheme = document.getElementById('forums-select').value;
     const status = document.getElementById('status');
 
-    if (!value) {
+    if (!value || !forumsTheme) {
         status.innerText = "Select a style first!"
         setTimeout(() => {
             status.innerText = ""
@@ -19,9 +22,10 @@ document.getElementById('save').addEventListener('click', () => {
     }
 
     chrome.storage.sync.set({
-        style: value
+        style: value,
+        forums: forumsTheme
     }, function() {
-        status.innerText = `Saved style: ${value.replace(value[0], value[0].toUpperCase())}`;
+        status.innerText = "Saved settings.";
         setTimeout(() => {
             status.innerText = ""
         }, 2000);
