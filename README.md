@@ -10,7 +10,7 @@ A Google Chrome extension to improve the look of [Minehut](https://www.minehut.c
 4. Click "Load Unpacked" and select the unzipped folder.
 
 ## Select theme
-Right click on the MinehutPlus icon and click options. After you select a theme, click save.
+Click on the MinehutPlus icon and change the theme in the popup.
 
 ## Screenshots
 ![My Dashboard](https://i.imgur.com/TcnDNjY.png)
