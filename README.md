@@ -21,9 +21,6 @@ Click on the MinehutPlus icon and change the theme in the popup.
 ![File Manager](https://i.imgur.com/RpeWKyx.png)
 ![Settings](https://i.imgur.com/K2vIqdl.png)
 
-## To-do
-See our [To-do](/TODO.md) list to see what is planned/completed.
-
 ## License
 MinehutPlus uses the MIT License.
 
