@@ -7,19 +7,19 @@
 }
 
 .sc-parent-row {
-    background-color: #1e1e1e;
+    background-color: var(--v-blob-base);
 }
 
 .v-list-item {
-    background-color: #1e1e1e;
+    background-color: var(--v-blob-base);
 }
 
 .v-progress-linear__buffer {
-    background-color: #1f425d;
+    background-color: var(--v-progress-buffer-base);
 }
 
 .v-navigation-drawer__content {
-    background-color: #1e1e1e;
+    background-color: var(--v-blob-base);
 }
 
 .v-navigation-drawer__border {
@@ -31,175 +31,175 @@
 }
 
 div.category-menu-list {
-    background-color: #1e1e1e;
+    background-color: var(--v-blob-base);
 }
 
 div.submenu-footer {
     border-top: unset!important;
-    background-color: #1e1e1e;
+    background-color: var(--v-blob-base);
 }
 
 div.v-list.secondary-nav.v-sheet.theme--dark {
-    background-color: #1e1e1e;
+    background-color: var(--v-blob-base);
     background-image: unset!important;
     border: unset;
 }
 
 div.v-list-item.active-menu-item {
-    background-color: #666666;
+    background-color: var(--v-selected-base);
 }
 
 .handle-container {
-    background-color: #363636;
+    background-color: var(--v-switcher-base);
 }
 
 div.v-card__text {
-    background-color: #1e1e1e;
+    background-color: var(--v-blob-base);
 }
 
 div.d-flex.flex-column.v-card.v-sheet {
-    background-color: #1e1e1e!important;
+    background-color: var(--v-blob-base)!important;
 }
 
 .category-menu-list .active-menu-item[data-v-2cbd8d2a], .category-menu-list .v-list-item[data-v-2cbd8d2a]:hover {
-    background-color: #121212;
+    background-color: var(--v-background-base);
 }
 
 .category-menu-list[data-v-2cbd8d2a]::-webkit-scrollbar-thumb {
-    background-color: #121212!important;
+    background-color: var(--v-background-base)!important;
 }
 
 button.v-pagination__navigation {
-    background-color: #1e1e1e!important;
+    background-color: var(--v-blob-base)!important;
 }
 
 div.d-none.d-md-block.false-footer {
-    background-color: #121212;
+    background-color: var(--v-background-base);
 }
 
 button.v-pagination__item.v-pagination__item--active.primary {
-    background-color: #2196f3!important;
+    background-color: var(--v-primary-base)!important;
 }
 
 div.container {
-    background-color: #121212;
+    background-color: var(--v-background-base);
 }
 
 span.v-btn__content {
-    color: #ffffff!important;
+    color: var(--v-text-base)!important;
 }
 
 div.v-card.v-sheet {
-    background-color: #1e1e1e!important;
+    background-color: var(--v-blob-base)!important;
 }
 
 div.v-progress-linear__determinate.primary {
-    background-color: #2196f3!important;
+    background-color: var(--v-primary-base)!important;
 }
 
 div.v-slider__track-fill.primary {
-    background-color: #2196f3!important;
+    background-color: var(--v-primary-base)!important;
 }
 
 div.v-slider__thumb.primary {
-    background-color: #2196f3!important;
+    background-color: var(--v-primary-base)!important;
 }
 
 div.v-input--selection-controls__ripple.primary--text::before {
-    background-color: #2196f3!important;
+    background-color: var(--v-primary-base)!important;
 }
 
 .credits {
-    color: #2196f3!important;
+    color: var(--v-primary-base)!important;
 }
 
 .v-progress-circular {
-    color: #2196f3;
-    caret-color: #2196f3;
+    color: var(--v-primary-base);
+    caret-color: var(--v-primary-base);
 }
 
 button.v-pagination__item {
-    background-color: #1e1e1e!important;
+    background-color: var(--v-blob-base)!important;
 }
 
 button.v-expansion-panel-header {
-    background-color: #1e1e1e;
+    background-color: var(--v-blob-base);
 }
 
 .da-active-icon {
-    outline: 2px solid #2196f3!important;
+    outline: 2px solid var(--v-primary-base)!important;
 }
 
 div.v-expansion-panel-content__wrap {
-    background-color: #1e1e1e;
+    background-color: var(--v-blob-base);
 }
 
 div.v-snack__wrapper.v-sheet.primary {
-    background-color: #2196f3!important;
+    background-color: var(--v-primary-base)!important;
 }
 
 #app button.v-btn.v-btn--text.v-size--default.v-snack__btn {
-    background-color: #2196f3!important;
+    background-color: var(--v-primary-base)!important;
 }
 
 #app button.v-btn.v-btn--is-elevated.v-btn--has-bg.v-size--default.error {
-    background-color: #ff5555!important;
+    background-color: var(--v-danger-base)!important;
 }
 
 #app > div.v-application--wrap > div.dash-div.fill-height > main > div > div > div > section > div:nth-child(2) > div.container.container--fluid > div > div > div.row.flex-nowrap > div > div > div > div > div.scs-main-content.d-flex.flex-column.justify-space-between.col-sm.col-xl-6.col-12 > div > div:nth-child(1) > div:nth-child(4) > button.sc-margin-right.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--default.error {
-    background-color: #ff5555!important;
+    background-color: var(--v-danger-base)!important;
 }
 
 #app button.v-btn.v-btn--text.v-size--default {
-    background-color: #1e1e1e!important;
+    background-color: var(--v-blob-base)!important;
 }
 
 #app .v-card, #app .v-card .v-list, #app .v-pagination__navigation, #app .v-toolbar, #app aside.v-navigation-drawer {
-    background-color: #1e1e1e;
+    background-color: var(--v-blob-base);
 }
 
 #app div.v-input__slot {
-    background-color: #1e1e1e!important;
+    background-color: var(--v-blob-base)!important;
 }
 
 #app .v-chip {
-    background-color: #2196f3!important;
+    background-color: var(--v-primary-base)!important;
 }
 
 #app .v-chip__content {
-    color: #ffffff;
+    color: var(--v-text-base);
 }
 
 #app span.v-chip.v-chip--no-color.v-size--default {
-    background-color: #555555!important;
+    background-color: var(--v-info-blurb-base)!important;
 }
 
 #app .v-btn {
-    background-color: #2196f3!important;
-}
-
-#app .v-btn__content {
-    color: #ffffff;
-}
-
-#app div.sc-side.d-flex.flex-column.justify-space-between.align-center.flex-direction-center.col-sm.col-xl-3.col-12 > div > div:nth-child(3) > div > button > span {
-    color: #757575;
+    background-color: var(--v-primary-base)!important;
 }
 
 #app .v-btn--disabled {
-    background-color: #393939!important;
+    background-color: var(--v-disabled-base)!important;
 }
 
 #app .v-app-bar__nav-icon {
-    background-color: #1e1e1e!important;
+    background-color: var(--v-blob-base)!important;
 }
 
 #app div.v-list-item.v-list-item--link.active-menu-item.d-flex.flex-column {
-    background-color: #666666;
+    background-color: var(--v-selected-base);
 }
 
 :root {
     --v-background-base: #121212;
+    --v-blob-base: #1e1e1e;
     --v-primary-base: #2196f3;
     --v-anchor-base: #2196f3;
+    --v-disabled-base: #393939;
+    --v-selected-base: #666666;
+    --v-info-blurb-base: #555555;
+    --v-text-base: #ffffff;
+    --v-danger-base: #ff5555;
+    --v-switcher-base: #363636;
+    --v-progress-buffer-base: #1f425d;
 }
