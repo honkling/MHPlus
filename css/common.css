@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'Minecraft Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Minecraft Regular'), url('https://www.cufonfonts.com/cdn/webfont/minecraft-3/1_MinecraftRegular1.woff?token=Wqh_4oV1YeMXQs8MA0guKeX4PdY8SEbA') format('woff');
-}
-
 /*
     Remove annoying advertisements
 */
@@ -13,48 +6,200 @@
     display: none !important;
 }
 
-/*
-    Apply font
-*/
-
-.da-preformat, .sl-preformat, .vip-color, .pro-color, .legend-color, .patron-color {
-    font-size: 1rem;
-    font-family: "Minecraft Regular";
+.sc-parent-row {
+    background-color: #1e1e1e;
 }
 
-/*
-    Center content
-*/
-
-.dash-div .content {
-    width: 100%;
+.v-list-item {
+    background-color: #1e1e1e;
 }
 
-.server-list-div .content {
-    width: 100%;
+.v-progress-linear__buffer {
+    background-color: #1f425d;
 }
 
-.user-profile .content {
-    width: 100%;   
+.v-navigation-drawer__content {
+    background-color: #1e1e1e;
 }
 
-.support-div .content {
-    width: 100%;
+.v-navigation-drawer__border {
+    display: none!important;
 }
 
-.container--fluid {
-    max-width: calc(100% - 240px);
-    margin: 0 auto;
+.logo-divider.v-divider {
+    display: none!important;
 }
 
-.server-list-div .container--fluid {
-    max-width: calc(100% - 360px);
+div.category-menu-list {
+    background-color: #1e1e1e;
 }
 
-.user-profile .container--fluid {
-    max-width: calc(100% - 460px);
+div.submenu-footer {
+    border-top: unset!important;
+    background-color: #1e1e1e;
 }
 
-.support-div .container--fluid {
-    max-width: calc(100% - 460px);
+div.v-list.secondary-nav.v-sheet.theme--dark {
+    background-color: #1e1e1e;
+    background-image: unset!important;
+    border: unset;
+}
+
+div.v-list-item.active-menu-item {
+    background-color: #666666;
+}
+
+.handle-container {
+    background-color: #363636;
+}
+
+div.v-card__text {
+    background-color: #1e1e1e;
+}
+
+div.d-flex.flex-column.v-card.v-sheet {
+    background-color: #1e1e1e!important;
+}
+
+.category-menu-list .active-menu-item[data-v-2cbd8d2a], .category-menu-list .v-list-item[data-v-2cbd8d2a]:hover {
+    background-color: #121212;
+}
+
+.category-menu-list[data-v-2cbd8d2a]::-webkit-scrollbar-thumb {
+    background-color: #121212!important;
+}
+
+button.v-pagination__navigation {
+    background-color: #1e1e1e!important;
+}
+
+div.d-none.d-md-block.false-footer {
+    background-color: #121212;
+}
+
+button.v-pagination__item.v-pagination__item--active.primary {
+    background-color: #2196f3!important;
+}
+
+div.container {
+    background-color: #121212;
+}
+
+span.v-btn__content {
+    color: #ffffff!important;
+}
+
+div.v-card.v-sheet {
+    background-color: #1e1e1e!important;
+}
+
+div.v-progress-linear__determinate.primary {
+    background-color: #2196f3!important;
+}
+
+div.v-slider__track-fill.primary {
+    background-color: #2196f3!important;
+}
+
+div.v-slider__thumb.primary {
+    background-color: #2196f3!important;
+}
+
+div.v-input--selection-controls__ripple.primary--text::before {
+    background-color: #2196f3!important;
+}
+
+.credits {
+    color: #2196f3!important;
+}
+
+.v-progress-circular {
+    color: #2196f3;
+    caret-color: #2196f3;
+}
+
+button.v-pagination__item {
+    background-color: #1e1e1e!important;
+}
+
+button.v-expansion-panel-header {
+    background-color: #1e1e1e;
+}
+
+.da-active-icon {
+    outline: 2px solid #2196f3!important;
+}
+
+div.v-expansion-panel-content__wrap {
+    background-color: #1e1e1e;
+}
+
+div.v-snack__wrapper.v-sheet.primary {
+    background-color: #2196f3!important;
+}
+
+#app button.v-btn.v-btn--text.v-size--default.v-snack__btn {
+    background-color: #2196f3!important;
+}
+
+#app button.v-btn.v-btn--is-elevated.v-btn--has-bg.v-size--default.error {
+    background-color: #ff5555!important;
+}
+
+#app > div.v-application--wrap > div.dash-div.fill-height > main > div > div > div > section > div:nth-child(2) > div.container.container--fluid > div > div > div.row.flex-nowrap > div > div > div > div > div.scs-main-content.d-flex.flex-column.justify-space-between.col-sm.col-xl-6.col-12 > div > div:nth-child(1) > div:nth-child(4) > button.sc-margin-right.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--dark.v-size--default.error {
+    background-color: #ff5555!important;
+}
+
+#app button.v-btn.v-btn--text.v-size--default {
+    background-color: #1e1e1e!important;
+}
+
+#app .v-card, #app .v-card .v-list, #app .v-pagination__navigation, #app .v-toolbar, #app aside.v-navigation-drawer {
+    background-color: #1e1e1e;
+}
+
+#app div.v-input__slot {
+    background-color: #1e1e1e!important;
+}
+
+#app .v-chip {
+    background-color: #2196f3!important;
+}
+
+#app .v-chip__content {
+    color: #ffffff;
+}
+
+#app span.v-chip.v-chip--no-color.v-size--default {
+    background-color: #555555!important;
+}
+
+#app .v-btn {
+    background-color: #2196f3!important;
+}
+
+#app .v-btn__content {
+    color: #ffffff;
+}
+
+#app div.sc-side.d-flex.flex-column.justify-space-between.align-center.flex-direction-center.col-sm.col-xl-3.col-12 > div > div:nth-child(3) > div > button > span {
+    color: #757575;
+}
+
+#app .v-btn--disabled {
+    background-color: #393939!important;
+}
+
+#app .v-app-bar__nav-icon {
+    background-color: #1e1e1e!important;
+}
+
+#app div.v-list-item.v-list-item--link.active-menu-item.d-flex.flex-column {
+    background-color: #666666;
+}
+
+:root {
+    --v-background-base: #121212;
+    --v-primary-base: #2196f3;
+    --v-anchor-base: #2196f3;
 }

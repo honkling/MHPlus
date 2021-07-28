@@ -1,9 +1,6 @@
 # MinehutPlus
 A Google Chrome extension to improve the look of [Minehut](https://www.minehut.com)'s dashboard.
 
-## IMPORTANT!
-This project will no longer be maintained. Pull requests will be accepted.
-
 ## Installation
 1. Clone the repo and unzip.
 2. Open chrome://extensions.

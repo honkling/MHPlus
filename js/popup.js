@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     chrome.storage.sync.get({
-        style: 'blue',
+        style: 'default',
         forums: 'default'
     }, function(items) {
         document.getElementById('dashboard-select').value = items.style;

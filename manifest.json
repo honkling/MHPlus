@@ -18,6 +18,8 @@
                 "*://*.minehut.com/dashboard/*",
                 "*://*.minehut.com/profile/*",
                 "*://*.minehut.com/market/*",
+		"*://minehut.com/",
+		"*://minehut.com/login",
                 "*://forums.minehut.com/*"
             ],
             "js": ["js/inject.js"]
