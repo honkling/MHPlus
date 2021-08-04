@@ -1,3 +1,5 @@
+<a href="https://discord.gg/zx6n4xUUHB"><img src="https://img.shields.io/discord/222078108977594368?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
+
 # MinehutPlus
 A Google Chrome extension to improve the look of [Minehut](https://www.minehut.com)'s dashboard.
 
