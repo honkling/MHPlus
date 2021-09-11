@@ -1,9 +1,8 @@
 :root {
-    --v-background-base: #1f3025;
-    --v-primary-base: #519b5b;
-    --v-anchor-base: #519b5b;
-    --v-disabled-base: #396d39;
-    --v-info-blurb-base: #519b5b;
+    --v-primary-base: #02a656;
+    --v-anchor-base: #02a656;
+    --v-disabled-base: #00914a;
+    --v-info-blurb-base: #02a656;
     --v-text-base: #ffffff;
     --v-danger-base: #ff5555;
     --v-progress-buffer-base: #206120;
