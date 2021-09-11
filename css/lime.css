@@ -1,0 +1,10 @@
+:root {
+    --v-background-base: #1f3025;
+    --v-primary-base: #519b5b;
+    --v-anchor-base: #519b5b;
+    --v-disabled-base: #396d39;
+    --v-info-blurb-base: #519b5b;
+    --v-text-base: #ffffff;
+    --v-danger-base: #ff5555;
+    --v-progress-buffer-base: #206120;
+}

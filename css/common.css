@@ -45,7 +45,7 @@ div.v-list.secondary-nav.v-sheet.theme--dark {
     border: unset;
 }
 
-div.v-list-item.active-menu-item {
+#app div.v-list-item.active-menu-item {
     background-color: var(--v-selected-base);
 }
 
