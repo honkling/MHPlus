@@ -6,6 +6,22 @@
     display: none !important;
 }
 
+.server-card .card-main {
+    background-color: var(--v-blob-base);
+}
+
+div.card-header.card-section {
+    background-color: var(--v-switcher-base);
+}
+
+.category-menu-list .v-list-item[data-v-4483b801]:hover {
+    background-color: var(--v-selected-base);
+}
+
+#app .as-link {
+    color: var(--v-primary-base)!important;
+}
+
 .sc-parent-row {
     background-color: var(--v-blob-base);
 }
