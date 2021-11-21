@@ -1,9 +1,19 @@
+const isFirefox = typeof InstallTrigger !== 'undefined';
+
 document.addEventListener('DOMContentLoaded', () => {
-    chrome.storage.sync.get({
-        style: 'default',
-    }, function(items) {
-        document.getElementById('dashboard-select').value = items.style;
-    });
+    if(!isFirefox) {
+        chrome.storage.sync.get({
+            style: 'default',
+        }, (items) => {
+            document.getElementById('dashboard-select').value = items.style;
+        });
+    } else {
+        browser.storage.local.get({
+            style: 'default',
+        }, (items) => {
+            document.getElementById('dashboard-select').value = items.style;
+        })
+    }
 });
 
 document.getElementById('save').addEventListener('click', () => {
@@ -12,18 +22,23 @@ document.getElementById('save').addEventListener('click', () => {
 
     if (!value) {
         status.innerText = "Select a style first!"
-        setTimeout(() => {
-            status.innerText = ""
-        }, 2000);
+        setTimeout(() => status.innerText = "", 2000);
         return;
     }
 
-    chrome.storage.sync.set({
-        style: value,
-    }, function() {
-        status.innerText = "Saved settings.";
-        setTimeout(() => {
-            status.innerText = ""
-        }, 2000);
-    });
+    if(!isFirefox) {
+        chrome.storage.sync.set({
+            style: value,
+        }, () => {
+            status.innerText = "Saved settings.";
+            setTimeout(() => status.innerText = "", 2000);
+        });
+    } else {
+        browser.storage.local.set({
+            style: value,
+        }, () => {
+            status.innerText = "Saved settings.";
+            setTimeout(() => status.innerText = "", 2000);
+        })
+    }
 });

@@ -8,9 +8,22 @@ function loadStyle(url) {
 
 loadStyle('common.css');
 
-chrome.storage.sync.get([
-    'style', 
-], function(items) {
-    if (items.style != "default")
-        loadStyle(`${items.style}.css`);
-});
+const isFirefox = typeof InstallTrigger !== 'undefined';
+
+if(!isFirefox) {
+    // it's probably chrome or chrome based
+    chrome.storage.sync.get([
+        'style',
+    ], function (items) {
+        if (items.style != "default" && items.style != "undefined")
+            loadStyle(`${items.style}.css`);
+    });
+} else {
+    // it's firefox :)
+    browser.storage.local.get([
+        'style',
+    ], function(items) {
+        if (items.style != "default" && items.style != "undefined")
+            loadStyle(`${items.style}.css`);
+    });
+}
