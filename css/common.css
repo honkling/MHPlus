@@ -31,6 +31,10 @@
     background-color: var(--mh-blob-base);
 }
 
+#app .router-link-active:hover {
+    background-color: var(--mh-selected-base);
+}
+
 #app .body {
     border-color: var(--mh-blob-base)!important;
 }
@@ -106,8 +110,6 @@
     background-color: var(--mh-primary-base)!important;
     border-color: var(--mh-primary-base)!important;
 }
-
-#app 
 
 #app .v-alert {
     background-color: var(--mh-blob-base);
@@ -255,12 +257,7 @@
     --mh-background-base: #121212;
     --mh-blob-base: #1e1e1e;
     --mh-primary-base: #2196f3;
-    --mh-anchor-base: #2196f3;
-    --mh-disabled-base: #393939;
     --mh-selected-base: #666666;
-    --mh-info-blurb-base: #555555;
     --mh-text-base: #ffffff;
     --mh-danger-base: #ff5555;
-    --mh-switcher-base: #363636;
-    --mh-progress-buffer-base: #1f425d;
 }

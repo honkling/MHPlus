@@ -2,14 +2,7 @@
     --mh-background-base: #1f2430;
     --mh-blob-base: #101521;
     --mh-primary-base: #ae81ff;
-    --mh-anchor-base: #ae81ff;
-    --mh-disabled-base: #2d313c;
     --mh-selected-base: #666666;
-    --mh-info-blurb-base: #2d3b4d;
     --mh-text-base: #ffffff;
-    --mh-text-disabled-base: #696c74;
     --mh-danger-base: #ff5555;
-    --mh-switcher-base: #090c13;
-    --mh-progress-buffer-base: #3f3563;
-    --mh-locked-overlay: rgba(67, 50, 103, 0.6);
 }

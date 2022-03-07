@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/popup/bootstrap.min.css">
         <link rel="stylesheet" href="css/popup/popup.css">
     </head>
-    <body style="font-size: 14px;">
+    <body style="font-size: 14px; width: 400px;">
         <div id="popup">
             <div class="container-fluid bg-primary">
                 <div class="container text-center text-white">
@@ -22,7 +22,36 @@
                         <option value="purple">Purple</option>
                         <option value="blue">Blue</option>
                         <option value="lime">Lime</option>
+                        <option value="custom">Custom</option>
                     </select>
+                    <div class="form-row custom-theme-fields">
+                        <div class="form-group">
+                            <label>Background Color</label>
+                            <input type="text" class="form-control" id="custom-bg-color">
+                        </div>
+                        <div class="form-group">
+                            <label>Foreground Color</label>
+                            <input type="text" class="form-control" id="custom-fg-color">
+                        </div>
+                        <div class="form-group">
+                            <label>Primary Color</label>
+                            <input type="text" class="form-control" id="custom-primary-color">
+                        </div>
+                    </div>
+                    <div class="form-row custom-theme-fields">
+                        <div class="form-group">
+                            <label>Selected Color</label>
+                            <input type="text" class="form-control" id="custom-select-color">
+                        </div>
+                        <div class="form-group">
+                            <label>Text Color</label>
+                            <input type="text" class="form-control" id="custom-text-color">
+                        </div>
+                        <div class="form-group">
+                            <label>Danger Color</label>
+                            <input type="text" class="form-control" id="custom-danger-color">
+                        </div>
+                    </div>
                 </div>
                 <button id="save" class="btn btn-primary">Save</button>
                 <p id="status" class="mt-4"></p>
