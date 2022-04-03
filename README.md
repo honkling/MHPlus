@@ -2,6 +2,9 @@
     <a href="https://discord.gg/zx6n4xUUHB">
         <img src="https://img.shields.io/discord/872306760394891315?color=5865F2&logo=discord&logoColor=white" alt="Discord server" />
     </a>
+    <a href="https://chrome.google.com/webstore/detail/jngphlhppdhjfcbnlpkigolonbcaddme">
+        <img src="https://img.shields.io/badge/Google%20Chrome-blue.svg?&style=flat&logo=google-chrome&logoColor=white" alt="Chrome Webstore">
+    </a>
     <a href="https://addons.mozilla.org/en-US/firefox/addon/minehut/">
         <img src="https://img.shields.io/badge/Firefox-purple.svg?&style=flat&logo=firefox-browser&logoColor=white" alt="Firefox Addons">
     </a>
@@ -11,13 +14,10 @@
 A browser extension to improve the look of [Minehut](https://www.minehut.com)'s dashboard.
 
 ## Installation
-MinehutPlus is available as a [Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/minehut/).
+Minehut+ is available on the following browsers.
 
-### Install for Google Chrome
-1. Download and unzip the file. Or, you can clone the repository with Git.
-2. Open chrome://extensions in Google Chrome.
-3. Enable developer mode.
-4. Click "Load Unpacked" and select the unzipped folder.
+* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/minehut/)
+* [Google Chrome](https://chrome.google.com/webstore/detail/jngphlhppdhjfcbnlpkigolonbcaddme)
 
 ## How to Use
 Click on the MinehutPlus icon in your browser's toolbar and change the theme in the popup.
