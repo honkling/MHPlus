@@ -1,60 +1,263 @@
-@font-face {
-    font-family: 'Minecraft Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Minecraft Regular'), url('https://www.cufonfonts.com/cdn/webfont/minecraft-3/1_MinecraftRegular1.woff?token=Wqh_4oV1YeMXQs8MA0guKeX4PdY8SEbA') format('woff');
+.card {
+    background-color: var(--mh-blob-base)!important;
 }
 
-/*
-    Remove annoying advertisements
-*/
-
-.advertisment-rail, .advertisement-server-bar {
-    display: none !important;
+.card-header {
+    background-color: var(--mh-blob-base)!important;
 }
 
-/*
-    Apply font
-*/
-
-.da-preformat, .sl-preformat, .vip-color, .pro-color, .legend-color, .patron-color {
-    font-size: 1rem;
-    font-family: "Minecraft Regular";
+#app .v-application {
+    background-color: var(--mh-background-base)!important;
 }
 
-/*
-    Center content
-*/
-
-.dash-div .content {
-    width: 100%;
+#app .accordion {
+    background-color: var(--mh-blob-base);
 }
 
-.server-list-div .content {
-    width: 100%;
+#app .montly-credit-value {
+    color: var(--mh-primary-base);
 }
 
-.user-profile .content {
-    width: 100%;   
+#app .user-credits {
+    background-color: var(--mh-blob-base);
+    border-color: var(--mh-blob-base);
 }
 
-.support-div .content {
-    width: 100%;
+#app .primary-text {
+    color: var(--mh-primary-base)!important;
 }
 
-.container--fluid {
-    max-width: calc(100% - 240px);
-    margin: 0 auto;
+#app .router-link-active {
+    background-color: var(--mh-blob-base);
 }
 
-.server-list-div .container--fluid {
-    max-width: calc(100% - 360px);
+#app .router-link-active:hover {
+    background-color: var(--mh-selected-base);
 }
 
-.user-profile .container--fluid {
-    max-width: calc(100% - 460px);
+#app .body {
+    border-color: var(--mh-blob-base)!important;
 }
 
-.support-div .container--fluid {
-    max-width: calc(100% - 460px);
+#app .submenu {
+    background-color: var(--mh-blob-base)!important;
+    border-color: var(--mh-blob-base)!important;
+}
+
+#app .category-menu-list {
+    background-color: var(--mh-blob-base);
+}
+
+#app .v-list-item {
+    background-color: var(--mh-blob-base);
+}
+
+#app .submenu-footer {
+    background-color: var(--mh-blob-base);
+    border-color: var(--mh-blob-base);
+}
+
+#app .credits {
+    color: var(--mh-primary-base);
+}
+
+#app .v-btn__content {
+    background-color: var(--mh-primary-base);
+    color: var(--mh-text-base);
+}
+
+#app .v-btn {
+    background-color: var(--mh-primary-base)!important;
+    border-color: var(--mh-primary-base)!important;
+}
+
+#app .v-chip {
+    background-color: var(--mh-primary-base)!important;
+    border-color: var(--mh-primary-base)!important;
+    color: var(--mh-text-base)!important;
+}
+
+#app .as-link {
+    color: var(--mh-primary-base);
+}
+
+#app .card-details > p > a {
+    color: var(--mh-primary-base)!important;
+}
+
+#app .v-card {
+    background-color: var(--mh-blob-base);
+}
+
+#app .v-btn.v-btn--icon {
+    background-color: unset!important;
+}
+
+#app .v-tabs-slider {
+    background-color: var(--mh-primary-base);
+}
+
+#app .v-expansion-panel {
+    background-color: var(--mh-blob-base)!important;
+}
+
+#app .content-secondary > .actions >  .v-btn {
+    background-color: var(--mh-danger-base)!important;
+    border-color: var(--mh-danger-base)!important;
+}
+
+#app .v-alert__border {
+    background-color: var(--mh-primary-base)!important;
+    border-color: var(--mh-primary-base)!important;
+}
+
+#app .v-alert {
+    background-color: var(--mh-blob-base);
+}
+
+#app .row > .d-flex > a {
+    color: var(--mh-primary-base);
+}
+
+#app .v-tab--active {
+    color: var(--mh-primary-base);
+}
+
+#app .v-treeview-node--active {
+    color: var(--mh-primary-base)!important;
+    caret-color: var(--mh-primary-base)!important;
+}
+
+#app .v-treeview-node__root .v-treeview-node--active {
+    background-color: var(--mh-primary-base)!important;
+
+}
+
+#app .v-btn__content {
+    background-color: unset;
+}
+
+#app .v-card__subtitle > a {
+    color: var(--mh-primary-base);
+}
+
+#app .v-toolbar {
+    background-color: var(--mh-blob-base);
+}
+
+#app .v-data-table__wrapper > table > tbody > tr {
+    background-color: var(--mh-blob-base);
+}
+
+#app .v-card__actions > a {
+    color: var(--mh-primary-base);
+}
+
+#app .change-nested-card-bk-color {
+    background-color: var(--mh-blob-base)!important;
+}
+
+#app .card-main {
+    background-color: var(--mh-blob-base);
+}
+
+#app span > span > b {
+    color: var(--mh-primary-base);
+}
+
+#app .v-icon {
+    color: var(--mh-primary-base)!important;
+}
+
+#app .card-actions > .alert-cta {
+    color: var(--mh-text-base)!important;
+}
+
+#app .upload-container {
+    color: var(--mh-primary-base);
+}
+
+#app .v-navigation-drawer__content {
+    background-color: var(--mh-blob-base);
+}
+
+#app .menu-item-content > .v-icon {
+    color: var(--mh-text-base)!important;
+}
+
+#app .menu-bar-trigger > .v-icon {
+    color: var(--mh-text-base)!important;
+}
+
+#app .v-navigation-drawer__border {
+    background-color: var(--mh-blob-base)!important;
+}
+
+#app .v-input__icon > .v-icon {
+    color: var(--mh-text-base)!important;
+}
+
+#app .card__actions > div > a {
+    color: var(--mh-primary-base)!important;
+}
+
+#app .alert-cta {
+    color: var(--mh-primary-base)!important;
+}
+
+#app .v-progress-circular__overlay {
+    color: var(--mh-primary-base);
+}
+
+#app .v-list-item__content > .v-list-item__title {
+    color: var(--mh-text-base);
+}
+
+#app .v-label--active {
+    color: var(--mh-primary-base)!important;
+}
+
+#app .primary--text {
+    color: var(--mh-primary-base)!important;
+    caret-color: var(--mh-primary-base)!important;
+}
+
+#app .v-list-item__title {
+    color: var(--mh-primary-base);
+}
+
+#app .primary-outlined-cta {
+    border-color: var(--mh-primary-base)!important;
+    color: var(--mh-primary-base);
+}
+
+#app .primary-cta {
+    background-color: var(--mh-primary-base);
+    color: var(--mh-text-base);
+}
+
+#app .desktop-menu {
+    background-color: var(--mh-blob-base);
+    border-color: var(--mh-blob-base);
+}
+
+#app .menu-item {
+    background-color: var(--mh-blob-base);
+}
+
+#app .menu li {
+    background-color: var(--mh-blob-base);
+}
+
+#app .alert-body > svg {
+    color: var(--mh-primary-base);
+}
+
+:root {
+    --mh-background-base: #121212;
+    --mh-blob-base: #1e1e1e;
+    --mh-primary-base: #2196f3;
+    --mh-selected-base: #666666;
+    --mh-text-base: #ffffff;
+    --mh-danger-base: #ff5555;
 }

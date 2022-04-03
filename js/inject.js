@@ -6,15 +6,38 @@ function loadStyle(url) {
     document.head.appendChild(style);
 }
 
+function loadCustomStyle({ customStyle }) {
+    const { backgroundColor, foregroundColor, primaryColor, selectColor, textColor, dangerColor } = customStyle;
+    const root = document.querySelector(":root");
+    root.style.setProperty("--mh-background-base", backgroundColor);
+    root.style.setProperty("--mh-blob-base", foregroundColor);
+    root.style.setProperty("--mh-primary-base", primaryColor);
+    root.style.setProperty("--mh-select-base", selectColor);
+    root.style.setProperty("--mh-text-base", textColor);
+    root.style.setProperty("--mh-danger-base", dangerColor);
+}
+
 loadStyle('common.css');
 
-chrome.storage.sync.get({
-    style: 'blue',
-    forums: 'default'
-}, function(items) {
-    if (items.style != "default")
+const isFirefox = typeof InstallTrigger !== 'undefined';
+
+function storageCallback(items) {
+    if (items.style !== "default" && items.style !== "undefined" && items.style !== "custom")
         loadStyle(`${items.style}.css`);
-        
-    if (items.forumsTheme != "default")
-        loadStyle(`forums/${items.forums}.css`);
-});
+    else if (items.style === "custom")
+        loadCustomStyle(items);
+}
+
+if(!isFirefox) {
+    // it's probably chrome or chrome based
+    chrome.storage.sync.get([
+        'style',
+        'customStyle',
+    ], storageCallback);
+} else {
+    // it's firefox :)
+    browser.storage.local.get([
+        'style',
+        'customStyle',
+    ], storageCallback);
+}

@@ -2,3 +2,20 @@
     font-size: 42px;
     padding: 18px;
 }
+
+.custom-theme-fields {
+    margin-top: 3px;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-theme-fields > * {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.custom-theme-fields input {
+    width: 90px;
+    font-weight: lighter;
+}

@@ -1,91 +1,15 @@
-.theme--dark.v-application {
-    background-color: #1f2430;
-}
-
-.v-application .primary {
-    background-color: #4561ca !important;
-}
-
-.v-application .error {
-    background-color: #FF3333 !important;
-    border-color: #FF3333 !important;
-}
-
-.theme--dark.v-navigation-drawer {
-    background-color: #141925 !important;
-    border-color: #101521 !important;
-}
-
-.theme--dark.v-card {
-    background-color: #191E2A;
-}
-
-.theme--dark.v-chip:not(.v-chip--active) {
-    background: #2D3B4D;
-}
-
-.theme--dark.v-sheet {
-    background-color: #101521;
-}
-
-table {
-    border: none;
-}
-
-.theme--dark.v-data-table {
-    background: #191E2A;
-}
-
-.theme--dark.v-data-table tbody tr:hover:not(.v-data-table__expanded__content) {
-    background: #2e374a;
-}
-
-.v-application .primary--text {
-    color: #4561ca !important;
-    caret-color: #4561ca !important;
-}
-
-.v-application a {
-    color: #5CCFE6;
-}
-
-.v-tooltip {
-    background: #2D3B4D;
-}
-
-.da-locked-overlay {
-    background-color: #4562ca48;
-}
-
-.da-active-icon {
-    outline: 2px solid #4561ca !important;
-}
-
-.si-locked-overlay {
-    background-color: #4562ca48;
-}
-
-.v-application .accent--text {
-    color: #4561ca !important;
-    caret-color: #4561ca !important;
-}
-
-.v-pagination__item {
-    background: #2e374a !important;
-}
-
-.v-pagination__navigation {
-    background: #2e374a !important;
-}
-
-.theme--dark.v-text-field--solo>.v-input__control>.v-input__slot {
-    background: #2e374a !important;
-}
-
-.theme--dark.v-expansion-panels .v-expansion-panel {
-    background-color: #191E2A !important;
-}
-
-.v-icon.notranslate.mdi.mdi-diamond.theme--dark {
-    color: #ae81ff !important;
+:root {
+    --mh-background-base: #1f2430;
+    --mh-blob-base: #101521;
+    --mh-primary-base: #4561ca;
+    --mh-anchor-base: #4561ca;
+    --mh-disabled-base: #2d313c;
+    --mh-selected-base: #666666;
+    --mh-info-blurb-base: #2d3b4d;
+    --mh-text-base: #ffffff;
+    --mh-text-disabled-base: #696c74;
+    --mh-danger-base: #ff5555;
+    --mh-switcher-base: #090c13;
+    --mh-progress-buffer-base: #253469;
+    --mh-locked-overlay: #4562ca99;
 }

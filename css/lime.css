@@ -1,0 +1,9 @@
+:root {
+    --mh-primary-base: #02a656;
+    --mh-anchor-base: #02a656;
+    --mh-disabled-base: #00914a;
+    --mh-info-blurb-base: #02a656;
+    --mh-text-base: #ffffff;
+    --mh-danger-base: #ff5555;
+    --mh-progress-buffer-base: #206120;
+}

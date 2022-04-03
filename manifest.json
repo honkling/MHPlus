@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Minehut+",
     "description": "Improve the look of Minehut's dashboard.",
-    "version": "1.0",
+    "version": "1.2.0",
     "icons": {
         "48": "images/icon48.png"
     },
@@ -18,7 +18,8 @@
                 "*://*.minehut.com/dashboard/*",
                 "*://*.minehut.com/profile/*",
                 "*://*.minehut.com/market/*",
-                "*://forums.minehut.com/*"
+		        "*://minehut.com/",
+		        "*://minehut.com/login"
             ],
             "js": ["js/inject.js"]
         }
