@@ -5,22 +5,22 @@
     <a href="https://chrome.google.com/webstore/detail/jngphlhppdhjfcbnlpkigolonbcaddme">
         <img src="https://img.shields.io/badge/Google%20Chrome-blue.svg?&style=flat&logo=google-chrome&logoColor=white" alt="Chrome Webstore">
     </a>
-    <a href="https://addons.mozilla.org/en-US/firefox/addon/minehut/">
+    <a href="https://addons.mozilla.org/en-US/firefox/addon/mhplus/">
         <img src="https://img.shields.io/badge/Firefox-purple.svg?&style=flat&logo=firefox-browser&logoColor=white" alt="Firefox Addons">
     </a>
 </p>
 
-# MinehutPlus
+# MHPlus
 A browser extension to improve the look of [Minehut](https://www.minehut.com)'s dashboard.
 
 ## Installation
-Minehut+ is available on the following browsers.
+MH+ is available on the following browsers.
 
 * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/minehut/)
 * [Google Chrome](https://chrome.google.com/webstore/detail/jngphlhppdhjfcbnlpkigolonbcaddme)
 
 ## How to Use
-Click on the MinehutPlus icon in your browser's toolbar and change the theme in the popup.
+Click on the MHPlus icon in your browser's toolbar and change the theme in the popup.
 
 ## Screenshots
 **NOTE:** The Minehut panel has changed since these screenshots were taken.
@@ -33,5 +33,5 @@ Click on the MinehutPlus icon in your browser's toolbar and change the theme in 
 ![Settings](https://i.imgur.com/K2vIqdl.png)
 
 ## License
-MinehutPlus uses the MIT License.
+MHPlus uses the MIT License.
 See the [LICENSE](./LICENSE) file for more details.
