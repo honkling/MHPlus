@@ -16,7 +16,7 @@ A browser extension to improve the look of [Minehut](https://www.minehut.com)'s 
 ## Installation
 MH+ is available on the following browsers.
 
-* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/minehut/)
+* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/mhplus/)
 * [Google Chrome](https://chrome.google.com/webstore/detail/jngphlhppdhjfcbnlpkigolonbcaddme)
 
 ## How to Use
