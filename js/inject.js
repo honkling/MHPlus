@@ -43,7 +43,6 @@ if(!isFirefox) {
 }
 
 (isFirefox ? browser : chrome).webRequest.addListener(async (details) => {
-    alert('Request received.');
     if(details.frameId !== 0) return;
     const [, domain, path] = Array.from(details.url.matchAll(/^https?:\/\/(.*\.?.+\.[^/]+)(\/.*)$/g))[0];
     if(domain === "api.minehut.com") {
