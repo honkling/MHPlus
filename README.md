@@ -10,7 +10,7 @@
     </a>
 </p>
 
-Note: MH+ is no longer maintained by me. Feel free to fork.
+This is a continuation and maintainer of Goose's MH+ extension
 
 # MHPlus
 A browser extension to improve the look of [Minehut](https://www.minehut.com)'s dashboard.
