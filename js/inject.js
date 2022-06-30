@@ -41,3 +41,21 @@ if(!isFirefox) {
         'customStyle',
     ], storageCallback);
 }
+
+(isFirefox ? browser : chrome).webRequest.addListener(async (details) => {
+    if(details.frameId !== 0) return;
+    const [, domain, path] = Array.from(details.url.matchAll(/^https?:\/\/(.*\.?.+\.[^/]+)(\/.*)$/g))[0];
+    if(domain === "api.minehut.com") {
+        if(/\/file\/upload\/[0-9a-f]{24}\/.+/.test(path)) {
+            // File upload! Let's see if the file already exists so we can override.
+            const [, serverId, filePath] = Array.from(path.matchAll(/\/file\/upload\/([0-9a-f]{24})\/(.+)/))[0];
+            await fetch(`https://api.minehut.com/file/${serverId}/delete/${filePath}`, {
+                headers: {
+                    authorization: details.headers.filter((h) => h.name === "authorization")[0].value,
+                    "x-session-id": details.headers.filter((h) => h.name === "x-session-id")[0].value,
+                },
+                method: "POST",
+            });
+        }
+    }
+});

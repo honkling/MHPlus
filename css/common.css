@@ -241,6 +241,18 @@
     border-color: var(--mh-blob-base);
 }
 
+#app .v-snack__wrapper {
+    background-color: var(--mh-primary-base)!important;
+}
+
+#scenecontainer {
+    background-color: var(--mh-background-base)!important;
+}
+
+#app .v-snack__content {
+    color: var(--mh-text-base)!important;
+}
+
 #app .menu-item {
     background-color: var(--mh-blob-base);
 }
