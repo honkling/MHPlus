@@ -1,9 +1,22 @@
 :root {
-    --mh-primary-base: #02a656;
-    --mh-anchor-base: #02a656;
-    --mh-disabled-base: #00914a;
-    --mh-info-blurb-base: #02a656;
-    --mh-text-base: #ffffff;
-    --mh-danger-base: #ff5555;
-    --mh-progress-buffer-base: #206120;
+    --mh-background-base: #121212;/*main background*/
+    --mh-background-grad: none;/*main background*/
+    --mh-code-base: #2b2b2b;/*editor background*/
+    --mh-code-grad: none;/*editor background*/
+    --mh-blob-base: #1e1e1e;/*secondary background*/
+    --mh-primary-base: #02a656;/*server button background*/
+    --mh-anchor-base: #02a656;/*?*/
+    --mh-disabled-base: #00914a;/*?*/
+    --mh-selected-base: #666666;/*sidebar button background*/
+    --mh-plan-base: #02a656;/*server plan buttons*/
+    --mh-info-blurb-base: #02a656;/*?*/
+    --mh-text-base: #ffffff;/*all text*/
+    --mh-img-base: invert(2%) sepia(6%) saturate(2%) hue-rotate(356deg) brightness(115%) contrast(100%);/*mh logo img color 
+    https://codepen.io/hem1102/pen/MWwNVNm*/
+    --mh-textc-base: #0cffdd;/*console error text*/
+    --mh-text-disabled-base: #ffffff;/*?*/
+    --mh-danger-base: #ff5555;/*server start stop button background*/
+    --mh-switcher-base: #ffffff;/*?*/
+    --mh-progress-buffer-base: #206120;/*?*/
+    --mh-locked-overlay: #ffffff;/*?*/
 }
