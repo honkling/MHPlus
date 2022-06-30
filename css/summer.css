@@ -1,0 +1,22 @@
+:root {
+    --mh-background-base: #F6916F;/*main background*/
+    --mh-background-grad: none;/*main background*/
+    --mh-code-base: #2b2b2b;/*editor background*/
+    --mh-code-grad: none;/*editor background*/
+    --mh-blob-base: #F6BC66;/*secondary background*/
+    --mh-primary-base: #F57176;/*server button background*/
+    --mh-anchor-base: #ffffff;/*?*/
+    --mh-disabled-base: #ffffff;/*?*/
+    --mh-selected-base: #F55C7A;/*sidebar button background*/
+    --mh-plan-base: #A47DB9;/*server plan buttons*/
+    --mh-info-blurb-base: #ffffff;/*?*/
+    --mh-text-base: #000000;/*all text*/
+    --mh-img-base: invert(100%) sepia(6%) saturate(25%) hue-rotate(224deg) brightness(107%) contrast(107%);/*mh logo img color 
+    https://codepen.io/hem1102/pen/MWwNVNm*/
+    --mh-textc-base: #0cffdd;/*console error text*/
+    --mh-text-disabled-base: #ffffff;/*?*/
+    --mh-danger-base: #F55C7A;/*server start stop button background*/
+    --mh-switcher-base: #ffffff;/*?*/
+    --mh-progress-buffer-base: #ffffff;/*?*/
+    --mh-locked-overlay: #ffffff;/*?*/
+}
