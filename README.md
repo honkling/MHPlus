@@ -1,5 +1,5 @@
 <p>
-    <a href="https://discord.gg/zx6n4xUUHB">
+    <a href="https://discord.gg/ZrchG3UMp7">
         <img src="https://img.shields.io/discord/872306760394891315?color=5865F2&logo=discord&logoColor=white" alt="Discord server" />
     </a>
     <a href="https://chrome.google.com/webstore/detail/jngphlhppdhjfcbnlpkigolonbcaddme">
