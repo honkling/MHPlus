@@ -1,22 +1,11 @@
 :root {
-    --mh-background-base: #1f2430;/*main background*/
-    --mh-background-grad: none;/*main background  linear-gradient(to top right, #173b96, #d400ff)*/
-    --mh-code-base: #2b2b2b;/*editor background*/
-    --mh-code-grad: none;/*editor background*/
-    --mh-blob-base: #101521;/*secondary background*/
-    --mh-primary-base: #1f2430;/*server button background*/
-    --mh-anchor-base: #000000;/*?*/
-    --mh-disabled-base: #000000;/*?*/
-    --mh-selected-base: #ffffff;/*sidebar button background*/
-    --mh-plan-base: #ffffff;/*server plan buttons*/
-    --mh-info-blurb-base: #000000;/*?*/
-    --mh-text-base: #A47DB9;/*all text*/
-    --mh-img-base: invert(36%) sepia(8%) saturate(1811%) hue-rotate(235deg) brightness(84%) contrast(88%);/*mh logo img color 
-    https://codepen.io/hem1102/pen/MWwNVNm*/
-    --mh-textc-base: #0cffdd;/*console error text*/
-    --mh-text-disabled-base: #000000;/*?*/
-    --mh-danger-base: #ff5555;/*server start stop button background*/
-    --mh-switcher-base: #000000;/*?*/
-    --mh-progress-buffer-base: #000000;/*?*/
-    --mh-locked-overlay: #000000;/*?*/
+    --mh-background-base: #1f2430; /* primary background */
+    --mh-blob-base: #101521; /* secondary background */
+    --mh-primary-base: #ae81ff; /* server button background */
+    --mh-selected-base: #666666; /* selected button color */
+    --mh-alert-base: #000000; /* alert box color */
+    --mh-text-base: #ffffff; /* all text */
+    --mh-danger-base: #ff5555; /* "dangerous" button background */
+    --mh-switcher-base: #666666; /* color of button for rearranging servers */
+    --mh-progress-buffer-base: #874af8; /* color of minehut progress bars */
 }

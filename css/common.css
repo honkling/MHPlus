@@ -6,6 +6,14 @@
     background-color: var(--mh-blob-base)!important;
 }
 
+.slg-video-player-container {
+    display: none;
+}
+
+#app .v-progress-linear__determinate {
+    background-color: var(--mh-progress-buffer-base)!important;
+}
+
 #app .v-application {
     background-color: var(--mh-background-base)!important;
     background-image: var(--mh-background-grad)!important;

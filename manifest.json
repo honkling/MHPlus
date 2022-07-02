@@ -9,21 +9,9 @@
     "action": {
         "default_popup": "popup.html"
     },
-    "content_scripts": [
-        {
-            "matches": [
-                "*://*.minehut.com/support/*",
-                "*://*.minehut.com/servers",
-                "*://*.minehut.com/shop/*",
-                "*://*.minehut.com/dashboard/*",
-                "*://*.minehut.com/profile/*",
-                "*://*.minehut.com/market/*",
-		        "*://minehut.com/",
-		        "*://minehut.com/login"
-            ],
-            "js": ["js/inject.js"]
-        }
-    ],
+    "background": {
+        "service_worker": "js/background.js"
+    },
     "web_accessible_resources": [{
         "resources": [
             "css/*.css",
@@ -31,9 +19,18 @@
         ],
         "matches": ["<all_urls>"]
     }],
+    "declarative_net_request": {
+        "rule_resources": [{
+            "id": "video_ruleset",
+            "enabled": true,
+            "path": "rules.json"
+        }]
+    },
     "permissions": [
         "storage",
-        "webRequest"
+        "webNavigation",
+        "scripting",
+        "declarativeNetRequest"
     ],
     "host_permissions": [
         "http://minehut.com/*",
