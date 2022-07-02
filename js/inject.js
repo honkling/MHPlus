@@ -1,8 +1,8 @@
 function loadStyle(url) {
-    const style = document.createElement('link');
+    const style = document.createElement("link");
     style.href = chrome.runtime.getURL(`css/${url}`);
-    style.type = 'text/css';
-    style.rel = 'stylesheet';
+    style.type = "text/css";
+    style.rel = "stylesheet";
     document.head.appendChild(style);
 }
 
@@ -17,9 +17,7 @@ function loadCustomStyle({ customStyle }) {
     root.style.setProperty("--mh-danger-base", dangerColor);
 }
 
-loadStyle('common.css');
-
-const isFirefox = typeof InstallTrigger !== 'undefined';
+loadStyle("common.css");
 
 function storageCallback(items) {
     if (items.style !== "default" && items.style !== "undefined" && items.style !== "custom")
@@ -28,16 +26,10 @@ function storageCallback(items) {
         loadCustomStyle(items);
 }
 
-if(!isFirefox) {
-    // it's probably chrome or chrome based
-    chrome.storage.sync.get([
-        'style',
-        'customStyle',
-    ], storageCallback);
-} else {
-    // it's firefox :)
-    browser.storage.local.get([
-        'style',
-        'customStyle',
-    ], storageCallback);
-}
+chrome.storage.sync.get([
+    "style",
+    "customStyle",
+], storageCallback);
+
+// Remove video player
+(document.querySelector(".slg-video-player-container") ?? [])[0]?.remove();
