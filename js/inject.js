@@ -26,7 +26,7 @@ function storageCallback(items) {
         loadCustomStyle(items);
 }
 
-chrome.storage.sync.get([
+browser.storage.local.get([
     "style",
     "customStyle",
 ], storageCallback);

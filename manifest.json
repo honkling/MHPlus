@@ -1,38 +1,24 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "MH+",
     "description": "Improve the look of Minehut's dashboard.",
     "version": "1.3.2",
     "icons": {
         "48": "images/icon48.png"
     },
-    "action": {
+    "browser_action": {
         "default_popup": "popup.html"
     },
     "background": {
-        "service_worker": "js/background.js"
+        "scripts": ["js/background.js"]
     },
-    "web_accessible_resources": [{
-        "resources": [
-            "css/*.css",
-            "css/forums/*.css"
-        ],
-        "matches": ["<all_urls>"]
-    }],
-    "declarative_net_request": {
-        "rule_resources": [{
-            "id": "video_ruleset",
-            "enabled": true,
-            "path": "rules.json"
-        }]
-    },
+    "web_accessible_resources": ["css/*.css"],
     "permissions": [
         "storage",
         "webNavigation",
         "scripting",
-        "declarativeNetRequest"
-    ],
-    "host_permissions": [
+        "webRequest",
+        "webRequestBlocking",
         "http://minehut.com/*",
         "https://minehut.com/*"
     ]
