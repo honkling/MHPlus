@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "MH+",
     "description": "Improve the look of Minehut's dashboard.",
-    "version": "1.3.3",
+    "version": "1.4.0",
     "icons": {
         "48": "images/icon48.png"
     },
