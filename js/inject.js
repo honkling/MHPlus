@@ -20,7 +20,8 @@ function loadCustomStyle({ customStyle }) {
 loadStyle("common.css");
 
 function storageCallback(items) {
-    if (items.style !== "default" && items.style !== "undefined" && items.style !== "custom")
+    items.style ??= "default";
+    if (items.style && items.style !== "default" && items.style !== "custom")
         loadStyle(`${items.style}.css`);
     else if (items.style === "custom")
         loadCustomStyle(items);
@@ -31,5 +32,11 @@ chrome.storage.sync.get([
     "customStyle",
 ], storageCallback);
 
-// Remove video player
-(document.querySelector(".slg-video-player-container") ?? [])[0]?.remove();
+// Pause video player. Doesn't load immediately so we have to use an interval to keep checking
+const intervalId = setInterval(() => {
+    const element = document.querySelector(".jw-video");
+    if (element && !element.paused) {
+        element.pause();
+        clearInterval(intervalId);
+    }
+}, 100);

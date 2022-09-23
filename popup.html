@@ -53,10 +53,19 @@
                             <input type="text" class="form-control" id="custom-danger-color">
                         </div>
                     </div>
+                    <button id="save" class="btn btn-primary">Save</button>
+                    <p id="status" class="mt-4"></p>
+                    <div id="other">
+                        <label class="status" id="progress">⚙️ Fetching authentication...</label>
+                        <label>Text Format</label>
+                        <select name="format" id="format" class="form-control">
+                            <option value="json">JSON</option>
+                            <option value="human">Human-friendly</option>
+                        </select>
+                        <button id="copy" class="btn btn-primary">Copy</button>
+                        </div>
+                    </div>
                 </div>
-                <button id="save" class="btn btn-primary">Save</button>
-                <p id="status" class="mt-4"></p>
-            </div>
         </div>
         <script src="js/popup.js"></script>
     </body>
