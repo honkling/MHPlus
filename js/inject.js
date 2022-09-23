@@ -31,5 +31,11 @@ browser.storage.local.get([
     "customStyle",
 ], storageCallback);
 
-// Remove video player
-(document.querySelector(".slg-video-player-container") ?? [])[0]?.remove();
+// Pause video player. Doesn't load immediately so we have to use an interval to keep checking
+const intervalId = setInterval(() => {
+    const element = document.querySelector(".jw-video");
+    if (element && !element.paused) {
+        element.pause();
+        clearInterval(intervalId);
+    }
+}, 100);

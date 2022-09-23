@@ -10,6 +10,53 @@
     display: none;
 }
 
+.primary-theme {
+    background-color: var(--mh-primary-base)!important;
+    color: var(--mh-text-base)!important;
+}
+
+.scroll-icon {
+    color: var(--mh-primary-base)!important;
+}
+
+.themed-control {
+    border: none!important;
+}
+
+div.col-md-12:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    background-color: var(--mh-primary-base)!important;
+    opacity: 0.75;
+}
+
+div.col-md-12:nth-child(3) > div:nth-child(1) > div:nth-child(1) {
+    background-color: var(--mh-primary-base)!important;
+    opacity: 0.75;
+}
+
+.content-card {
+    background-color: var(--mh-blob-base)!important;
+}
+
+.background-container-image-container > .backgroundTint {
+    background-color: var(--mh-blob-base)!important;
+}
+
+.big-quote {
+    color: var(--mh-primary-base)!important;
+}
+
+.minehut-stat-number {
+    color: var(--mh-primary-base)!important;
+}
+
+.container {
+    background-color: var(--mh-blob-base)!important;
+}
+
+.backgroundTint ~ p.dark-text {
+    color: var(--mh-text-base);
+}
+
 #app .v-progress-linear__determinate {
     background-color: var(--mh-progress-buffer-base)!important;
 }

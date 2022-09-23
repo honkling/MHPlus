@@ -8,7 +8,7 @@ browser.webNavigation.onDOMContentLoaded.addListener(({ tabId, url }) => {
 
 browser.webRequest.onBeforeRequest.addListener(
     () => {
-        return { cancel: true }
+        return { cancel: true };
     },
     {
         urls: ["https://video.minehut.com/*"],

@@ -8,6 +8,79 @@ const defaultStyle = {
 };
 const regex = /(?!i)#[0-9a-f]{3,8}/;
 
+function handleError(e) {
+    console.error(e);
+    updateStatus("An error occurred.", false);
+}
+
+function updateStatus(message, success) {
+    const status = document.querySelector(".status");
+    status.textContent = (success ? "✔️ " : "❌ ") + message;
+    status.id = success ? "success" : "error";
+}
+
+let localStorage;
+
+browser.tabs.query({ url: "https://minehut.com/*" })
+    .then((result) => {
+        const status = document.querySelector(".status");
+
+        if (result.length < 1) {
+            updateStatus("Couldn't find tab.", false);
+            return;
+        }
+
+        const tab = result[0];
+        browser.tabs.executeScript(tab.id, { code: `
+        function getCookie(e) {
+            const t = e + "="; // "access_token_prd="
+            const n = decodeURIComponent(document.cookie); // decodeURIComponent is a function provided by the browsers. Don't waste your time like I did
+            const r = n.split("; "); // Array of string key-value pairs for cookies
+            let i; // null
+            return (
+                r.forEach((e) => {
+                    0 === e.indexOf(t) && (i = e.substring(t.length)); // All cookies that starts with "access_token_prd="
+                }),
+                i // The token
+            );
+        }
+
+        JSON.stringify({
+            minehutToken: getCookie("access_token_prd"),
+            minehutSession: localStorage.minehut_session_id,
+            slgProfile: localStorage.slg_profile_id,
+            slgSession: localStorage.slg_session_id,
+            slgUserToken: localStorage.slg_session_id
+        });
+        ` })
+            .then((raw) => {
+                localStorage = JSON.parse(raw);
+                updateStatus("Fetched authentication information.", true);
+            })
+            .catch(handleError);
+    })
+    .catch(handleError);
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector("#copy").addEventListener("click", () => {
+        const format = document.querySelector("#format");
+        switch (format.value) {
+            case "json":
+                navigator.clipboard.writeText(JSON.stringify(localStorage));
+                break;
+            case "human":
+                navigator.clipboard.writeText(`
+Minehut Token: ${localStorage.minehutToken}
+Minehut Session ID: ${localStorage.minehutSession}
+SLG Profile ID: ${localStorage.slgProfile}
+SLG Session ID: ${localStorage.slgSession}
+SLG User Token: ${localStorage.slgUserToken}
+                `.trim());
+        }
+    });
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
     function storageCallback(items) {
         function setValueById(id, value) {

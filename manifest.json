@@ -17,8 +17,6 @@
         "storage",
         "webNavigation",
         "scripting",
-        "webRequest",
-        "webRequestBlocking",
         "http://minehut.com/*",
         "https://minehut.com/*"
     ]

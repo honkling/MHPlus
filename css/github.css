@@ -1,0 +1,11 @@
+:root {
+    --mh-background-base: #1c2128; /* primary background */
+    --mh-blob-base: #22272e; /* secondary background */
+    --mh-primary-base: #373e47; /* server button background */
+    --mh-selected-base: #666666; /* selected button color */
+    --mh-alert-base: #000000; /* alert box color */
+    --mh-text-base: #ffffff; /* all text */
+    --mh-danger-base: #ff5555; /* "dangerous" button background */
+    --mh-switcher-base: #666666; /* color of button for rearranging servers */
+    --mh-progress-buffer-base: #874af8; /* color of minehut progress bars */
+}

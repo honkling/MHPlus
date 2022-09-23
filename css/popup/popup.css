@@ -3,6 +3,10 @@
     padding: 18px;
 }
 
+#save {
+    margin-top: 8px;
+}
+
 .custom-theme-fields {
     margin-top: 3px;
     flex-direction: row;
@@ -18,4 +22,47 @@
 .custom-theme-fields input {
     width: 90px;
     font-weight: lighter;
+}
+
+#other {
+    display: flex;
+    justify-content: center;
+    color: black;
+    flex-flow: column;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#other > * {
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#progress {
+    color: slategray;
+}
+
+#success {
+    color: #14c30c;
+}
+
+#error {
+    color: salmon;
+}
+
+#copy {
+    margin-top: 4px;
+    box-sizing: content-box;
+    width: 36px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+}
+
+.row > * {
+    margin-left: 4px;
+    margin-right: 4px;
 }
