@@ -50,7 +50,7 @@ browser.tabs.query({ url: "https://minehut.com/*" })
             minehutSession: localStorage.minehut_session_id,
             slgProfile: localStorage.slg_profile_id,
             slgSession: localStorage.slg_session_id,
-            slgUserToken: localStorage.slg_session_id
+            slgUserToken: localStorage.slg_user_token
         });
         ` })
             .then((raw) => {
