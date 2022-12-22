@@ -12,7 +12,7 @@ function getCookie(e) {
 }
 
 JSON.stringify({
-    minehutToken: getCookie("access_token_prd"),
+    minehutToken: getCookie("access_token_prd") ?? localStorage.minehut_auth_token,
     minehutSession: localStorage.minehut_session_id,
     slgProfile: localStorage.slg_profile_id,
     slgSession: localStorage.slg_session_id,
