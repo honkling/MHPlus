@@ -1,9 +1,190 @@
+#mdi-plus-circle {
+    color: var(--mh-primary-base)!important;
+}
+
+#mdi-pencil {
+    color: var(--mh-primary-base)!important;
+}
+
+.page-content {
+    background-color: var(--mh-background-base)!important;
+}
+
+.server-overview-card {
+    background-color: var(--mh-blob-base)!important;
+}
+
+.server-specs-card {
+    background-color: var(--mh-blob-base)!important;
+}
+
+.addons-card {
+    background-color: var(--mh-blob-base)!important;
+}
+
+span[class^="control-group"] {
+    background-color: var(--mh-selected-base)!important;
+}
+
+span[class*="control-group"][class*="disabled"] {
+    background-color: var(--mh-background-base)!important;
+}
+
+label[class*="select-control"] > span > select > option {
+    background-color: var(--mh-background-base)!important;
+}
+
+div[class*="content-card"] > a[class*="anchor"] {
+    color: var(--mh-primary-base)!important;
+}
+
+a[class*="menu-item"]:hover {
+    color: var(--mh-primary-base)!important;
+}
+
+div[class*="tooltip"] > button {
+    background-color: var(--mh-primary-base)!important;
+    color: var(--mh-text-base)!important;
+}
+
+div[class*="tooltip"] > div {
+    color: var(--mh-text-base)!important;
+    box-shadow: 0px 2px 5px var(--mh-background-base)!important;
+}
+
+.resource-uploader {
+    border-color: var(--mh-primary-base)!important;
+}
+
+body {
+    background-color: var(--mh-background-base)!important;
+}
+
+div.container--fluid {
+    background-color: var(--mh-background-base)!important;
+}
+
+.router-link-active {
+    color: var(--mh-text-base)!important;
+}
+
+.dash-header-actions > a {
+    color: var(--mh-primary-base)!important;
+}
+
+.dash-header-actions > a[class*="no-border"] {
+    color: var(--mh-text-base)!important;
+    background-color: var(--mh-primary-base)!important;
+}
+
+.card-header-content > .card-actions > button.page-control {
+    background-color: var(--mh-primary-base)!important;
+    color: var(--mh-text-base)!important;
+}
+
+.full-loader-bg {
+    background-color: var(--mh-blob-base)!important;
+}
+
+span[class^="dd-control-label"]:hover {
+    color: var(--mh-primary-base)!important;
+}
+
+div[class*="site-dropdown"]:hover > button[class*="dd-control"] {
+    color: var(--mh-primary-base)!important;
+}
+
+a[class*="dd-option"]:hover {
+    background-color: var(--mh-selected-base)!important;
+}
+
+a[class*="alert-cta"] {
+    color: var(--mh-primary-base)!important;
+}
+
+button[class*="menu-item"]:hover {
+    color: var(--mh-primary-base)!important;
+}
+
+div[class^="card"] {
+    background-color: var(--mh-blob-base)!important;
+}
+
+div[class^="themed"] {
+    background-color: var(--mh-blob-base)!important;
+}
+
 .card {
     background-color: var(--mh-blob-base)!important;
 }
 
 .card-header {
     background-color: var(--mh-blob-base)!important;
+}
+
+.slg-video-player-container {
+    display: none;
+}
+
+.primary-theme {
+    background-color: var(--mh-primary-base)!important;
+    color: var(--mh-text-base)!important;
+}
+
+.scroll-icon {
+    color: var(--mh-primary-base)!important;
+}
+
+.themed-control {
+    border: none!important;
+}
+
+div.col-md-12:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    background-color: var(--mh-primary-base)!important;
+    opacity: 0.75;
+}
+
+div.col-md-12:nth-child(3) > div:nth-child(1) > div:nth-child(1) {
+    background-color: var(--mh-primary-base)!important;
+    opacity: 0.75;
+}
+
+.content-card {
+    background-color: var(--mh-blob-base)!important;
+}
+
+.background-container-image-container > .backgroundTint {
+    background-color: var(--mh-blob-base)!important;
+}
+
+.big-quote {
+    color: var(--mh-primary-base)!important;
+}
+
+.minehut-stat-number {
+    color: var(--mh-primary-base)!important;
+}
+
+.container {
+    background-color: var(--mh-blob-base)!important;
+}
+
+.backgroundTint ~ p.dark-text {
+    color: var(--mh-text-base);
+}
+
+#app svg[class^="site-logo"] {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(23deg) brightness(118%) contrast(118%);
+}
+
+#app a[class*=" primary-theme"].page-control {
+    background-color: var(--mh-primary-base)!important;
+    color: var(--mh-text-base)!important;
+}
+
+#app menu[class^="list___"] {
+    background-color: var(--mh-blob-base)!important;
+    border-bottom: none;
 }
 
 #app .v-progress-linear__determinate {
@@ -26,14 +207,6 @@
 
 #app .montly-credit-value {
     color: var(--mh-primary-base);
-}
-
-#app .logtype-std {
-    color: var(--mh-text-base);
-}
-
-#app .logtype-warn {
-    color: var(--mh-textc-base);
 }
 
 #app .user-credits {
@@ -175,8 +348,8 @@
     background-color: var(--mh-blob-base);
 }
 
-#app .v-data-table__wrapper > table > tbody > tr {
-    background-color: var(--mh-blob-base);
+#app .v-data-table {
+    background-color: var(--mh-blob-base)!important;
 }
 
 #app .menu-item:hover {
