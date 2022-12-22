@@ -5,7 +5,7 @@
     <a href="https://chrome.google.com/webstore/detail/jngphlhppdhjfcbnlpkigolonbcaddme">
         <img src="https://img.shields.io/badge/Google%20Chrome-blue.svg?&style=flat&logo=google-chrome&logoColor=white" alt="Chrome Webstore">
     </a>
-    <a href="https://addons.mozilla.org/en-US/firefox/addon/mhplus/">
+    <a href="https://addons.mozilla.org/en-US/firefox/addon/minehut/">
         <img src="https://img.shields.io/badge/Firefox-purple.svg?&style=flat&logo=firefox-browser&logoColor=white" alt="Firefox Addons">
     </a>
 </p>
