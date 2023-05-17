@@ -6,6 +6,33 @@
     color: var(--mh-primary-base)!important;
 }
 
+button[class*="page-control"][class*="primary-theme"][class*="no-underline"] {
+    background-color: var(--mh-primary-base)!important;
+    color: var(--mh-text-base)!important;
+}
+
+.file-manager-card {
+    background-color: var(--mh-blob-base)!important;
+}
+
+.game-settings-card {
+    background-color: var(--mh-blob-base)!important;
+}
+
+a[class*="primary-theme"] {
+    color: var(--mh-primary-base)!important;
+}
+
+form[class*="server-promo-creation-form"] > button[class*="primary-theme"][class*="themed-control"] {
+    background-color: var(--mh-primary-base)!important;
+    color: var(--mh-text-base)!important;
+}
+
+div[class*="card-header-actions"] > button[class*="primary-theme"][class*="themed-control"] {
+    background-color: var(--mh-primary-base)!important;
+    color: var(--mh-text-base)!important;
+}
+
 .page-content {
     background-color: var(--mh-background-base)!important;
 }
@@ -50,6 +77,10 @@ div[class*="tooltip"] > button {
 div[class*="tooltip"] > div {
     color: var(--mh-text-base)!important;
     box-shadow: 0px 2px 5px var(--mh-background-base)!important;
+}
+
+.spacer {
+    background-color: var(--mh-blob-base)!important;
 }
 
 .resource-uploader {
@@ -598,11 +629,6 @@ div.col-md-12:nth-child(3) > div:nth-child(1) > div:nth-child(1) {
     background-image: var(--mh-background-grad)!important;
 }
 
-#app .cm-s-darcula.CodeMirror {
-    background-color: var(--mh-code-base)!important;
-    background-image: var(--mh-code-grad)!important;
-}
-
 #app .v-snack__content {
     color: var(--mh-text-base)!important;
 }
@@ -617,6 +643,14 @@ div.col-md-12:nth-child(3) > div:nth-child(1) > div:nth-child(1) {
 
 #app .alert-body > svg {
     color: var(--mh-primary-base);
+}
+
+div[class*="selections-control"] {
+    background-color: var(--mh-selected-base)!important;
+}
+
+.promos-card {
+    background-color: var(--mh-blob-base)!important;
 }
 
 :root {
