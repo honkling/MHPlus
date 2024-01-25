@@ -22,7 +22,7 @@ function updateStatus(message, success) {
 
 let localStorage;
 
-chrome.tabs.query({ url: "https://minehut.com/*" })
+chrome.tabs.query({ url: "https://app.minehut.com/*" })
     .then((result) => {
         const status = document.querySelector(".status");
 
