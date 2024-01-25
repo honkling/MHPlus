@@ -17,7 +17,7 @@
         "storage",
         "webNavigation",
         "scripting",
-        "http://minehut.com/*",
-        "https://minehut.com/*"
+        "http://app.minehut.com/*",
+        "https://app.minehut.com/*"
     ]
 }
